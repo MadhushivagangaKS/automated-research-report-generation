@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = [
-    "langgraph>=1.1.10",
-]
+
+[tool.setuptools.packages.find]
+include = ["research_and_analyst*"]
+exclude = ["static*"]
