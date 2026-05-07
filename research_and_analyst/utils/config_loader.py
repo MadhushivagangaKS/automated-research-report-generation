@@ -10,7 +10,7 @@ def _project_root() -> Path:
     """
     Determine the absolute path of the project root directory.
     Example:
-        /Users/sunny/automated-research-report-generation/research_and_analyst
+        /Users/madhushivagangaks/automated-research-report-generation/research_and_analyst
     """
     return Path(__file__).resolve().parents[1]
 
