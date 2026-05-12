@@ -43,3 +43,5 @@ def update_requirements_file():
 
     print("requirements.txt updated successfully with installed versions.")
 
+if __name__ == "__main__":
+    update_requirements_file()
